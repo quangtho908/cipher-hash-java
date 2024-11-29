@@ -4,5 +4,6 @@ public enum Agorithm {
 	AES,
 	DES,
 	Blowfish,
-	DESede
+	DESede,
+  Camellia
 }

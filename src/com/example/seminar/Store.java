@@ -17,7 +17,7 @@ public class Store {
 	public static BasePaddingPanel commonPaddingPanel;
 	public static BaseIVSize currentKeyIVSizePanel;
 	public static TabConfig currentTab;
-	public static HashMap<Agorithm, AgorithmConfig> agorihmConfigs = new HashMap<Agorithm, AgorithmConfig>();
+	public static HashMap<Agorithm, AgorithmConfig> agorithmConfigs = new HashMap<Agorithm, AgorithmConfig>();
 	public static HashMap<Mode, ModeConfig> modeConfigs = new HashMap<Mode, ModeConfig>();
 	public static Notice notice = new Notice();
 	public static FileChoosen fileChooser = new FileChoosen();

@@ -49,10 +49,11 @@ public class SyncModern extends BaseCipherHandler implements ICipherFile{
 
 	@Override
 	protected void addAgorithm() {
-		Store.agorihmConfigs.put(Agorithm.AES, new AgorithmConfig(16));
-		Store.agorihmConfigs.put(Agorithm.DES, new AgorithmConfig(8, 56));
-		Store.agorihmConfigs.put(Agorithm.Blowfish, new AgorithmConfig(8));
-		Store.agorihmConfigs.put(Agorithm.DESede, new AgorithmConfig(8));
+		Store.agorithmConfigs.put(Agorithm.AES, new AgorithmConfig(16));
+		Store.agorithmConfigs.put(Agorithm.DES, new AgorithmConfig(8, 56));
+		Store.agorithmConfigs.put(Agorithm.Blowfish, new AgorithmConfig(8));
+		Store.agorithmConfigs.put(Agorithm.DESede, new AgorithmConfig(8));
+    Store.agorithmConfigs.put(Agorithm.Camellia, new AgorithmConfig(16));
 	}
 
 	@Override

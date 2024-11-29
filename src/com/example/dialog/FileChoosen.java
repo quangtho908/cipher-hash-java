@@ -35,7 +35,7 @@ public class FileChoosen extends JDialog {
 					approvedFile();
 					break;
 				default:
-					return;
+					break;
 			}
 			setVisible(false);
 		});

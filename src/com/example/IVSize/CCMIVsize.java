@@ -23,7 +23,7 @@ public class CCMIVsize extends BaseIVSize {
 			@Override
 			public void focusLost(FocusEvent e) {
 				int value = Integer.parseInt(keySize.getText());
-				AgorithmConfig agorithmConfig = Store.agorihmConfigs.get(Store.agorithm);
+				AgorithmConfig agorithmConfig = Store.agorithmConfigs.get(Store.agorithm);
 				if(value >= 7 && value <= 13) {
 					agorithmConfig.ivSizeByMode.put(Store.mode, Integer.parseInt(keySize.getText()));
 				}else {

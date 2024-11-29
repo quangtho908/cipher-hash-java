@@ -52,7 +52,7 @@ public class SyncModernHeader extends JPanel {
 					Store.currentKeySizePanel = KeySize.keyPanels.get(Store.agorithm);
 					Store.keySize = ((KeySize) Store.currentKeySizePanel).defaultValue;
 					Store.currentKeySizePanel.setVisible(true);
-				}else Store.keySize = Store.agorihmConfigs.get(Store.agorithm).keySize;
+				}else Store.keySize = Store.agorithmConfigs.get(Store.agorithm).keySize;
 			}
 		});
 		agorithm.setModel(new DefaultComboBoxModel<Agorithm>(Agorithm.values()));
@@ -76,7 +76,7 @@ public class SyncModernHeader extends JPanel {
 
 				if(modeConfig != null && modeConfig.iVSizeOptions != null) {
 					Store.currentKeyIVSizePanel = modeConfig.iVSizeOptions;
-					Store.agorihmConfigs.get(Store.agorithm).ivSizeByMode.put(Store.mode, Store.currentKeyIVSizePanel.defaultValue);
+					Store.agorithmConfigs.get(Store.agorithm).ivSizeByMode.put(Store.mode, Store.currentKeyIVSizePanel.defaultValue);
 					Store.currentKeyIVSizePanel.setVisible(true);
 				}
 				((KeyPanelSyncModern) Store.currentTab.footer).setVisibleIV(true);

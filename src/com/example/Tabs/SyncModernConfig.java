@@ -17,6 +17,7 @@ import com.example.cipher.SyncModern;
 import com.example.keyPanel.KeyPanelSyncModern;
 import com.example.keySize.AESKeySize;
 import com.example.keySize.BlowfishKeySize;
+import com.example.keySize.CamelliaKeySize;
 import com.example.keySize.DESedeKeySize;
 import com.example.keySize.KeySize;
 import com.example.padding.CBCPaddingPanel;
@@ -38,6 +39,7 @@ public class SyncModernConfig extends TabConfig implements IBaseTabConfig{
 		new AESKeySize();
 		new DESedeKeySize();
 		new BlowfishKeySize();
+    new CamelliaKeySize();
 		new CCMIVsize();
 		new EBCIVSize();
 		new CBCPaddingPanel();

@@ -55,7 +55,7 @@ public class SecretHandler implements IKeyHandler, ISecretHandler{
 	@Override
 	public IvParameterSpec genIV() {
 		try {
-			AgorithmConfig agorithmConfig = Store.agorihmConfigs.get(Store.agorithm);
+			AgorithmConfig agorithmConfig = Store.agorithmConfigs.get(Store.agorithm);
 			byte[] ivBytes = new byte[agorithmConfig.ivSize];
 			if(agorithmConfig.ivSizeByMode.get(Store.mode) != null) {
 				ivBytes = new byte[agorithmConfig.ivSizeByMode.get(Store.mode)];
