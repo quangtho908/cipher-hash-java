@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cipher-hash-java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cipher_hash_java_jar</output-path>
+    <root id="archive" name="cipher-hash-java.jar">
+      <element id="module-output" name="cipher-hash-java" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../bcprov-jdk15to18-1.79.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
